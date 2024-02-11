@@ -348,7 +348,7 @@ h4 {
     align-items: flex-start;
     gap: 5px;
     flex-direction: row;
-    text-wrap: wrap;
+    word-wrap: break-word;
   }
   .dropdown-menu {
     /* display: flex;
@@ -356,6 +356,8 @@ h4 {
     overflow: hidden;
     flex-wrap: wrap;
     text-wrap: wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 }
 
