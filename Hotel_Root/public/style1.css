@@ -255,6 +255,63 @@ h4 {
     justify-content: center;
   }
 }
+
+.faq-section {
+  height: 100vh;
+  padding-bottom: 30px;
+  background: linear-gradient(270deg, #666, #a363aa);
+}
+.faq-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.faq-main h1 {
+  font-weight: 700;
+}
+
+.main-1 button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: black;
+  width: 100vh;
+  border-radius: 20px;
+  padding: 30px;
+}
+.dropdown-menu li a {
+  text-decoration: none;
+  color: black;
+  text-align: start;
+  /* display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-direction: row; */
+}
+.dropdown-menu li {
+  font-weight: 500;
+  padding: 5px 10px 5px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  flex-direction: row;
+}
+.faq-down {
+  margin-top: 15px;
+}
+.faq-down ul li {
+  font-weight: 600;
+}
+/* FOOTER */
+
 .footer {
   background: linear-gradient(299deg, #ff994f, #a363aa);
   width: 100%;
